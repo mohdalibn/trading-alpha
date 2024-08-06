@@ -1,0 +1,253 @@
+[{
+  "_id": {
+    "$oid": "65fd21ba29c0d14e2a275ade"
+  },
+  "username": "adminUsr",
+  "password": "adminPass",
+  "portfolio": [],
+  "funding": 0,
+  "totalValue": 0,
+  "userStatus": "admin",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd21ba29c0d14e2a275adf"
+  },
+  "username": "COMP3100",
+  "password": "comp3100pass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd21ba29c0d14e2a275ae0"
+  },
+  "username": "COMP2005",
+  "password": "comp2005pass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": [
+    "friendsOpsTesting"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd254e29c0d14e2a275ae1"
+  },
+  "username": "EmptyPortfolio",
+  "password": "emptypass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd254e29c0d14e2a275ae2"
+  },
+  "username": "SomeStocks",
+  "password": "somestockspass",
+  "portfolio": [
+    {
+      "symbol": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "quantity": "2",
+      "purchasePrice": 80.82,
+      "currentPrice": 80.82,
+      "purchaseDate": {
+        "$date": "2024-03-22T06:34:11.677Z"
+      },
+      "profit": 0,
+      "totalValue": 161.64
+    }
+  ],
+  "funding": 9838.36,
+  "totalValue": 161.64,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd4ac029c0d14e2a275aff"
+  },
+  "username": "aftest1",
+  "password": "aftestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [
+    "aftest2"
+  ],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd4ac029c0d14e2a275b00"
+  },
+  "username": "aftest2",
+  "password": "aftestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [
+    "aftest1"
+  ],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd4ac029c0d14e2a275b01"
+  },
+  "username": "aftest3",
+  "password": "aftestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd4ac029c0d14e2a275b02"
+  },
+  "username": "aftest4",
+  "password": "aftestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fd4ac029c0d14e2a275b03"
+  },
+  "username": "aftest5",
+  "password": "aftestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fdc29829c0d14e2a275b1d"
+  },
+  "username": "bstest1",
+  "password": "bstestpass",
+  "portfolio": [],
+  "funding": 10,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "65fdc29829c0d14e2a275b1e"
+  },
+  "username": "bstest2",
+  "password": "bstestpass",
+  "portfolio": [],
+  "funding": 10000,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "660f9bb3eedec39e4f716247"
+  },
+  "username": "friendsOpsTesting",
+  "password": "friendsopstesting",
+  "portfolio": [],
+  "funding": 10,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [
+    "FriendTester"
+  ],
+  "sendList": [
+    "COMP2005"
+  ],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "6610a899ced4658f81ca04ac"
+  },
+  "username": "FriendTester",
+  "password": "friendtester",
+  "portfolio": [],
+  "funding": 0,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [
+    "friendsOpsTesting",
+    "SimonRiley"
+  ],
+  "sendList": [],
+  "requestList": []
+},
+{
+  "_id": {
+    "$oid": "6610ae9502b6fad158eff751"
+  },
+  "username": "SimonRiley",
+  "password": "simonriley",
+  "portfolio": [],
+  "funding": 0,
+  "totalValue": 0,
+  "userStatus": "player",
+  "gameID": null,
+  "friendList": [
+    "FriendTester"
+  ],
+  "sendList": [],
+  "requestList": []
+}]

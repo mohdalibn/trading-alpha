@@ -1,0 +1,86 @@
+
+
+.cont1-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 400px;
+    height: max-content;
+}
+
+.game-list-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content2{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1C1F2E;
+}
+
+.create-game-div, .add-player-game-div, .get-winner-div{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: max-content;
+}
+
+
+.searchbar-common-style{
+    background-color: #1C1F2E;
+    outline: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgba(55, 65, 81, 1);
+    color: #fff;
+}
+
+.searchbar-common-style:focus {
+    border-color: #830EF9;
+    transition: border-color 0.2s;
+}
+
+
+.button-common-style{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1C1F2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #830EF9;
+}
+
+
+.button-common-style:hover{
+    cursor: pointer;
+}
+
+.label-titles{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.result-success{
+    font-size: 20px;
+    color: green;
+}
+
+.result-error{
+    font-size: 20px;
+    color: red;
+}
+
+.game-text{
+    font-size: 20px;
+}

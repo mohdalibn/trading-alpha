@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP 3100 Project - Player Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/chat.css">
+
+    <!-- JQuery 3.7.1 minified CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Socket.io CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.js" integrity="sha512-2RDFHqfLZW8IhPRvQYmK9bTLfj/hddxGXQAred2wNZGkrKQkLGj8RCkXfRJPHlDerdHHIzTFaahq4s/P4V6Qig==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header class="header-container">
+
+        <div class="header-brand">
+            <a href="#home">Trading Alpha Inc.</a>
+        </div>
+
+        <div class="header-profile">
+            <div class="header-username"></div>
+            <div class="circle-pic">
+                <img class="svg-pp" src="./assets/pp1.svg" alt="SVG Profile Picture">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="hero-section">
+
+        <div class="sidebar">
+
+            <div class="sidebar-links">
+
+                <div class="link-items">
+                    <ion-icon name="home-outline" class="link-icons"></ion-icon>
+                    <a href="/admin" id="Home">Admin</a>
+                </div>
+                <div class="link-items">
+                    <ion-icon name="chatbox-outline" class="link-icons"></ion-icon>
+                    <a href="#" id="chat">Chat</a>
+                </div>
+
+            </div>
+
+            <div class="sep-line"></div>
+
+            <div class="logout-container">
+                <ion-icon name="log-out-outline" class="logout-icon"></ion-icon>
+                <a href="/logout" id="chat">Logout</a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            
+            <div class="chat-title-cont">
+                <h1 class="chat-title">Global Chat Room</h1>
+            </div>
+
+            <div class="chats-container">
+                <div class="inner-chats-cont">
+                </div>
+                <div class="typing-container"></div>
+            </div>
+
+            <div class="message-type-cont">
+                <div class="text-box-div">
+                    <input type="text" name="" id="text-msg-input" placeholder="Type your message here..." class="text-input">
+                </div>
+                <div class="msg-button"><ion-icon name="send-outline" class="msg-icon"></ion-icon></div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Client-side JavaScript for dashboard functionalities -->
+    <script src="./js/common.js"></script>
+    <script src="./js/chat.js"></script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- JS Scripts for the icons from ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

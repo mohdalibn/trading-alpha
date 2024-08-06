@@ -1,0 +1,110 @@
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+
+.search-container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: max-content;
+}
+
+.sell-searchbar{
+    background-color: #1C1F2E;
+    outline: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgba(55, 65, 81, 1);
+    color: #fff;
+}
+
+.sell-searchbar:focus {
+    border-color: #830EF9;
+    transition: border-color 0.2s;
+}
+
+::placeholder {
+    color: #d5d5d5;
+    font-size: 15px;
+}
+
+.sell-search-button-div{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1C1F2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sell-search-button-div:hover{
+    cursor: pointer;
+}
+
+.search-icon{
+    font-size: 30px;
+}
+
+
+.portfolio-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-item{
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1C1F2E;
+    color: #fff;
+    display: flex;
+
+}
+
+.item-content{
+    flex: 2;
+}
+
+.item-content p{
+    font-size: 18px;
+}
+
+.item-sell{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sell-quant{
+    width: 150px;
+    height: 50px;
+}
+
+.item-sell-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #830EF9;
+}
+
+
+.no-portfolio-div{
+    padding: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+}

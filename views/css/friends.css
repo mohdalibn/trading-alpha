@@ -1,0 +1,154 @@
+
+
+.main-content{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.search-container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: max-content;
+}
+
+.refresh-div{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1C1F2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.refresh-div:hover{
+    cursor: pointer;
+}
+
+.refresh-icon{
+    font-size: 25px;
+}
+
+.friend-searchbar{
+    background-color: #1C1F2E;
+    outline: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgba(55, 65, 81, 1);
+    color: #fff;
+}
+
+.friend-searchbar:focus {
+    border-color: #830EF9;
+    transition: border-color 0.2s;
+}
+
+::placeholder {
+    color: #d5d5d5;
+    font-size: 15px;
+}
+
+.friend-search-button-div{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #1C1F2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.friend-search-button-div:hover{
+    cursor: pointer;
+}
+
+.add-friend-icon{
+    font-size: 25px;
+}
+
+.add-result-div{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.add-result-success{
+    color: green;
+}
+
+.add-result-error{
+    color: red;
+}
+
+.friends-outer-cont{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-list-div, .pending-request-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #1C1F2E;
+}
+
+.card-title{
+    font-size: 25px;
+    color: #fff;
+}
+
+.friend-list-item, .pending-request-item{
+    background-color: #830EF9;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}
+
+.pending-request-item{
+    background-color: rgb(112, 46, 46);
+}
+
+.friend-svg{
+    width: 50px;
+    height: auto;
+}
+
+.friend-username{
+    font-size: 20px;
+}
+
+.accept-button-div{
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    background-color: #1C1F2E;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.accept-button-div:hover{
+    cursor: pointer;
+}
+
+.no-result-div{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    /* margin: auto; */
+}

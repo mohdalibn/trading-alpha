@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP 3100 Project - Player Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/admin.css">
+
+    <!-- JQuery 3.7.1 minified CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header class="header-container">
+
+        <div class="header-brand">
+            <a href="#home">Trading Alpha Inc.</a>
+        </div>
+
+        <div class="header-profile">
+            <div class="header-username"></div>
+            <div class="circle-pic">
+                <img class="svg-pp" src="./assets/pp1.svg" alt="SVG Profile Picture">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="hero-section">
+
+        <div class="sidebar">
+
+            <div class="sidebar-links">
+
+                <div class="link-items active">
+                    <ion-icon name="home-outline" class="link-icons"></ion-icon>
+                    <a href="#" id="Home">Admin</a>
+                </div>
+                <div class="link-items">
+                    <!-- <ion-icon name="chatbox-ellipses-outline" class="link-icons"></ion-icon> -->
+                    <ion-icon name="chatbox-outline" class="link-icons"></ion-icon>
+                    <a href="/chat" id="chat">Chat</a>
+                </div>
+
+            </div>
+
+            <div class="sep-line"></div>
+
+            <div class="logout-container">
+                <ion-icon name="log-out-outline" class="logout-icon"></ion-icon>
+                <a href="/logout" id="chat">Logout</a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            
+            <div class="content content1">
+
+                <div class="cont1-top">
+
+                    <div class="time-top">
+                        <ion-icon name="time-outline" class="cont1-icons"></ion-icon>
+                        <p class="curr-time" id="curr-time"></p>
+                    </div>
+
+                    <div class="date-top">
+                        <p class="curr-date" id="curr-date"></p>
+                    </div>
+
+                </div>
+                <div class="cont1-bottom">
+                    <div class="game-list-title">Games List</div>
+                </div>
+
+            </div>
+            <div class="content content2">
+                
+                <div class="label-titles">Create New Game</div>
+
+                <div class="create-game-div">
+                    <input type="text" class="create-game-searchbar searchbar-common-style" placeholder="Enter a game ID">
+                    <div class="create-button button-common-style">Create Game</ion-icon></div>    
+                </div>
+                
+                <div class="label-titles">Start Existing Game</div>
+
+                <div class="create-game-div">
+                    <input type="text" class="start-game-searchbar searchbar-common-style" placeholder="Enter a game ID">
+                    <div class="start-button button-common-style">Start Game</ion-icon></div>    
+                </div>
+
+                <div class="label-titles">Add Player To Game</div>
+
+                <div class="add-player-game-div">
+                    <input type="text" class="add-player-searchbar searchbar-common-style" placeholder="Player Username">
+                    <input type="text" class="searchbar-common-style" id="searchInput" placeholder="Game ID">
+                    <div class="add-button button-common-style">Add Player</ion-icon></div>    
+                </div>
+
+                <div class="label-titles">Finish Game & Declare Winner</div>
+
+                <div class="get-winner-div">
+                    <input type="text" class="get-winner-searchbar searchbar-common-style" placeholder="Enter a game ID">
+                    <div class="winner-button button-common-style">Get Winner</ion-icon></div>    
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Client-side JavaScript for dashboard functionalities -->
+    <script src="./js/common.js"></script>
+    <script src="./js/admin.js"></script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- JS Scripts for the icons from ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

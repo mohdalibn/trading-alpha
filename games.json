@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "66005b4a67df71630200d82f"
+  },
+  "gameID": "game_player_add",
+  "gameStatus": "inactive",
+  "startdate": {
+    "$date": "2024-03-24T16:56:42.162Z"
+  },
+  "enddate": null,
+  "playerList": [],
+  "bestPlayer": null
+},
+{
+  "_id": {
+    "$oid": "66103a023dc068e90a1ed664"
+  },
+  "gameID": "TestCreatGame1",
+  "gameStatus": "inactive",
+  "startdate": {
+    "$date": "2024-04-05T17:50:58.458Z"
+  },
+  "enddate": null,
+  "playerList": [],
+  "bestPlayer": null
+},
+{
+  "_id": {
+    "$oid": "6610afe502b6fad158eff752"
+  },
+  "gameID": "demo1",
+  "gameStatus": "inactive",
+  "startdate": {
+    "$date": "2024-04-06T02:13:57.531Z"
+  },
+  "enddate": null,
+  "playerList": [],
+  "bestPlayer": null
+},
+{
+  "_id": {
+    "$oid": "6610aff002b6fad158eff753"
+  },
+  "gameID": "demo1",
+  "gameStatus": "inactive",
+  "startdate": {
+    "$date": "2024-04-06T02:14:08.963Z"
+  },
+  "enddate": null,
+  "playerList": [],
+  "bestPlayer": null
+}]

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP 3100 Project - Player Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/sell.css">
+
+    <!-- JQuery 3.7.1 minified CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header class="header-container">
+
+        <div class="header-brand">
+            <a href="#home">Trading Alpha Inc.</a>
+        </div>
+
+        <div class="header-profile">
+            <div class="header-username"></div>
+            <div class="circle-pic">
+                <img class="svg-pp" src="./assets/pp1.svg" alt="SVG Profile Picture">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="hero-section">
+
+        <div class="sidebar">
+
+            <div class="sidebar-links">
+
+                <div class="link-items">
+                    <ion-icon name="home-outline" class="link-icons"></ion-icon>
+                    <a href="/dashboard" id="Home">Dashboard</a>
+                </div>
+                <div class="link-items">
+                    <ion-icon name="cart-outline"  class="link-icons"></ion-icon>
+                    <a href="/buy" id="Buy">Buy Stocks</a>
+                </div>
+                <div class="link-items active">
+                    <ion-icon name="wallet-outline" class="link-icons"></ion-icon>
+                    <a href="#" id="Sell">Sell Stocks</a>
+                </div>
+                <div class="link-items">
+                    <ion-icon name="people-outline" class="link-icons"></ion-icon>
+                    <a href="/friends" id="Friends">Friends</a>
+                </div>
+                <div class="link-items">
+                    <!-- <ion-icon name="chatbox-ellipses-outline" class="link-icons"></ion-icon> -->
+                    <ion-icon name="chatbox-outline" class="link-icons"></ion-icon>
+                    <a href="/chat" id="chat">Chat</a>
+                </div>
+
+            </div>
+
+            <div class="sep-line"></div>
+
+            <div class="logout-container">
+                <ion-icon name="log-out-outline" class="logout-icon"></ion-icon>
+                <a href="/logout" id="chat">Logout</a>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            
+            <div class="search-container">
+
+                <input type="text" class="sell-searchbar" id="searchInput" placeholder="Lookup an owned stock">
+                <div class="sell-search-button-div"><ion-icon name="search-outline" class="search-icon"></ion-icon></div>
+
+            </div>
+
+            <div class="portfolio-container">
+                <!-- This is where Dynamic content for the sell page will be placed -->
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- Client-side JavaScript for dashboard functionalities -->
+    <script src="./js/common.js"></script>
+    <script src="./js/sell.js"></script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- JS Scripts for the icons from ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP 3100 Project - Login Page</title>
+
+    <!-- Link to my CSS Stylesheet -->
+    <link rel="stylesheet" href="./css/login.css">
+
+    <!-- JQuery 3.7.1 minified CDN Link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <div class="outer-container">
+        <div class="form-container">
+            <p class="brand-title">Trading Alpha Inc.</p>
+            <form class="form">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                    <div class="forgot">
+                        <a rel="noopener noreferrer" href="#">Forgot Password ?</a>
+                    </div>
+                </div>
+                <button class="login-button">Login</button>
+            </form>
+            <div class="register-message">
+                <div class="line"></div>
+                <p class="message signup">Don't have an account?
+                    <a rel="noopener noreferrer" href="/register" class="">Register</a>
+                </p>
+                <div class="line"></div>
+            </div>
+    
+        </div>
+    
+        <div class="auth-result">
+            <p class="auth-message"></p>
+        </div>
+    </div>
+
+
+    <!-- Client-side JavaScript file link -->
+    <script src="./js/loginauth.js"></script> 
+
+</body>
+</html>
