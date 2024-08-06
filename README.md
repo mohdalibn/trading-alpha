@@ -1,20 +1,6 @@
 # Mohd Ali Bin Naser's COMP 3100 Project Repository (Winter 2024)
 
 <!-- ---------------------------------------------------------------------------- -->
-
-The Google Drive Link for my COMP 3100 Project Video is given below:
-
-IMPORTANT: The first video I recorded was cut short due to accidental hotkey press on OBS recording. THE LATEST VIDEO LINK is the complete video.
-
-LATEST VIDEO LINK: https://drive.google.com/file/d/1kbewVwT3G3lC44N4HZdUkAW76NfcVtb8/view?usp=sharing
-
-
-
-OLD VIDEO LINK: https://drive.google.com/file/d/1RBU4KRedSmEEV3nDpmQntyvdFqZMXeTH/view?usp=sharing
-
-In the case that Google Drive says that the video is still processing, you may need to download the video
-
-<!-- ---------------------------------------------------------------------------- -->
 ## Repository Layout Explanation
 
 The Layout of this project repository is such that the codebase is divided into several files which are placed in specific folders in the root directory following the MVC pattern. 
