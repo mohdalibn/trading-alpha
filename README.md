@@ -1,4 +1,7 @@
-# Mohd Ali Bin Naser's COMP 3100 Project Repository (Winter 2024)
+
+![TradingAlpha](https://github.com/user-attachments/assets/c86cd530-aac0-449c-95a2-42dae9a50f4e)
+
+# Mohd Ali Bin Naser's COMP 3100 Project Repository Copy
 
 <!-- ---------------------------------------------------------------------------- -->
 ## Repository Layout Explanation
